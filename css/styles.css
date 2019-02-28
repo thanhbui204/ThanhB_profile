@@ -1,0 +1,221 @@
+body {
+  font-family: 'Cardo', serif;
+  text-align: center;
+}
+
+h3, .a-feature {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+}
+
+p.font-h4 {
+  font-family: 'Patrick Hand', cursive;
+}
+
+.testimonial-text p {
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: solid 3px;
+  width: 30%;
+  margin-left: 0.5rem;
+  border-radius: 30%;
+  margin-bottom: 3rem;
+}
+
+.block-title hr {
+  margin-left: 27%;
+  width: 45%;
+}
+
+.padding-box {
+  padding: 3% 4%;
+}
+
+.padding-inside {
+  margin: 1rem auto 1rem auto;
+}
+
+.highlight-color {
+  background-color: #f3f8ff;
+}
+
+.hr-i-color, hr {
+  color: #fab95b;
+}
+
+.icon-color {
+  color: #fff;
+}
+
+/* Title Section */
+#title {
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Dropdown content */
+.dropdown-menu {
+  background-color: #d9d9d9;
+}
+
+.author {
+  text-align: center;
+  padding: 8% 10% 15% 10%;
+  line-height: 5rem;
+}
+
+.author-job {
+  color: #fffafa;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.author-name {
+  font-family: 'Permanent Marker', cursive;
+  color: #3161a3;
+  font-size: 80px;
+}
+
+/* Feature Section */
+#feature {
+  background-color: #dfdfdf;
+  padding: 1% 10%;
+}
+
+.container-fluid {
+  position: relative;
+  bottom: 5rem;
+  z-index: 1;
+}
+
+.line-height {
+  line-height: 1.7rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #f3f8ff;
+  text-align: left;
+}
+
+.button-align {
+  margin-top: 3rem;
+}
+
+/* Website Slices */
+.profile-pic {
+  margin-left: 3rem;
+  border-radius: 100%;
+  width: 80%;
+}
+
+.carousel-indicators li {
+  background-color: #fab95b;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.margin {
+  padding-bottom: 2rem;
+}
+
+/* Education and Experiences */
+#experiences {
+  background-color: #D1D1D1;
+}
+
+.resume-list {
+  display: flex;
+  align-items: stretch;
+}
+
+.resume-list div {
+  width: 30px;
+  margin: 5px;
+  text-align: center;
+}
+
+.padding-resume {
+  padding-top: 3rem;
+  margin: 1%;
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+}
+
+.icon-resume {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  padding: 5%;
+  border-radius: 50%;
+  z-index: 2;
+  background-color: #fab95b;
+}
+
+.title-resume-size{
+  font-size: 25px;
+}
+
+/* Footer */
+#footer{
+  background-color: #343a40;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+
+
+
+/* Responsive layout */
+@media (min-width: 991.5px) {
+  .bar {
+    position: relative;
+    top: 200px;
+  }
+}
+
+@media (max-width: 991.5px) {
+  .profile-pic {
+    margin-bottom: 3rem;
+    border-radius: 100%;
+    width: 30%;
+  }
+
+  #testimonials {
+    text-align: center;
+  }
+
+  hr {
+    margin-left: auto;
+  }
+
+  #testimonials .padding-box {
+    padding: 1% 15%;
+  }
+
+  #testimonials .padding-inside {
+    margin-top: 3rem;
+  }
+
+  .vl {
+    z-index: -1;
+  }
+}
