@@ -217,5 +217,6 @@ hr {
 
   .vl {
     z-index: -1;
+    height: 0;
   }
 }
